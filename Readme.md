@@ -5,8 +5,9 @@ The purpose of the Credit Risk Classification project is to find a better model 
 
 The given feaures are 'loan_size', 'interest_rate', 'borrower_income', 'debt_to_income', 'num_of_accounts', 'derogatory_marks', 'total_debt', 'loan_status'. With the help of Machine Learning tools we will try to build a model to predict the loan_status, wheater it's a healthy loan (0) or high-risk loan(1). 
 The initial data contains:
-0    75036
-1     2500
+
+* 0    75036
+* 1     2500
 
 The data will be split into training and testing sets. The Logistic Regression will use the training data to learn the pattern the data has and predict the possible outcome for future incoming data. Since the dataset is imbalanced the second method we'll be using the RandomOverSampler to resample the data and build the model on an oversampled dataset. To check the accuracy and other metrics we'll be using the previously split testing data.
 
